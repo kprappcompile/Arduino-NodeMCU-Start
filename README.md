@@ -1,12 +1,12 @@
 # Arduino-Lamp
-https://kprappcompile.com
-110-Lab ทดสอบการทำงาน Board Arduino ด้วย LED Build In
+https://kprappcompile.com\n
+110-Lab ทดสอบการทำงาน Board Arduino ด้วย LED Build In\n
 
 
-void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
-}
+void setup() {\n
+  // initialize digital pin LED_BUILTIN as an output.\n
+  pinMode(LED_BUILTIN, OUTPUT);\n
+}\n
 
 
 // the loop function runs over and over again forever
