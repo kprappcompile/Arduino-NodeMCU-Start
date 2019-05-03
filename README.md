@@ -5,26 +5,26 @@ https://kprappcompile.com
 110-Lab ทดสอบการทำงาน Board Arduino ด้วย LED Build In
 
 
-void setup() {
+    void setup() {
 
-    // initialize digital pin LED_BUILTIN as an output.
+        // initialize digital pin LED_BUILTIN as an output.
   
-    pinMode(LED_BUILTIN, OUTPUT);
+        pinMode(LED_BUILTIN, OUTPUT);
   
-}
+    }
 
 
-// the loop function runs over and over again forever
+    // the loop function runs over and over again forever
 
-void loop() {
+    void loop() {
 
-    digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+        digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
   
-    delay(200);                       // wait for a second
+        delay(200);                       // wait for a second
   
-    digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+        digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   
-    delay(200);                       // wait for a second
+        delay(200);                       // wait for a second
   
-}
+    }
 
