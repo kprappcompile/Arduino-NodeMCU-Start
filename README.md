@@ -28,5 +28,5 @@ https://kprappcompile.com
         delay(1000);                       // wait for a second => 1000 = 1 second
   
     }
- <img src="https://kprappcompile.app/images/logo.png">
+ <img src="https://kprappcompile.app/images/logokpr_webdesign.png" width="150">
 
