@@ -21,11 +21,11 @@ https://kprappcompile.com
 
         digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
   
-        delay(200);                       // wait for a second
+        delay(1000);                       // wait for a second => 1000 = 1 second
   
         digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   
-        delay(200);                       // wait for a second
+        delay(1000);                       // wait for a second => 1000 = 1 second
   
     }
 
