@@ -14,8 +14,8 @@ initialize ค่าเริ่มต้นต่าง
 ส่วน Function loop จะทำงานแบบ วนลูป ตลอดการทำงาน
 
 รายละเอียดขาต่างๆ ของ NodeMCU <br>
-<div>
-<img src="https://www.arduinoall.net/arduino-tutor/wp-content/uploads/2016/11/NodeMCU__v1.0_pinout1.jpg" width="500">
+<div style="align-center">
+<img src="https://www.arduinoall.net/arduino-tutor/wp-content/uploads/2016/11/NodeMCU__v1.0_pinout1.jpg" width="700">
 </div>
 
 
