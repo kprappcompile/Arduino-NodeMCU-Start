@@ -1,6 +1,6 @@
-# Arduino NodeMCU 
+# Arduino/NodeMCU 
 
-https://kprappcompile.com
+https://kprappcompile.app
 
 001-Lab ทดสอบการทำงาน Board Arduino ด้วย LED Build In
 เป็น Lab แรกที่จะเรียนรู้เรื่องการทำงานของ Board arduino และ NodeMCU
