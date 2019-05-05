@@ -2,7 +2,21 @@
 
 https://kprappcompile.com
 
-110-Lab ทดสอบการทำงาน Board Arduino ด้วย LED Build In
+001-Lab ทดสอบการทำงาน Board Arduino ด้วย LED Build In
+เป็น Lab แรกที่จะเรียนรู้เรื่องการทำงานของ Board arduino และ NodeMCU
+ใน Code จะมี Function ที่จำเป็นและ ต้องมี 2 Function คือ
+1. setup
+2. loop
+
+โดยที่ Function setup จะทำงานเริ่มต้น เราจะใช้ Function นี้ ในการ
+initialize ค่าเริ่มต้นต่าง
+
+ส่วน Function loop จะทำงานแบบ วนลูป ตลอดการทำงาน
+
+รายละเอียดขาต่างๆ ของ NodeMCU
+<img src="https://www.arduinoall.net/arduino-tutor/wp-content/uploads/2016/11/NodeMCU__v1.0_pinout1.jpg" width="500">
+
+
 
 
 
