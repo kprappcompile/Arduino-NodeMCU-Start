@@ -41,5 +41,14 @@ initialize ค่าเริ่มต้นต่าง
         delay(1000);                       // wait for a second => 1000 = 1 second
   
     }
+ 
+ <ul>
+    <li><a scr="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
+ ">Driver TTL CP210x</a></li>
+ </ul>
+
+ 
+ 
+ 
  <img src="https://kprappcompile.app/images/logokpr_webdesign.png" width="150">
 
