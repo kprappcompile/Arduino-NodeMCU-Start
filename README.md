@@ -1,6 +1,9 @@
 # Arduino/NodeMCU 
 
 https://kprappcompile.app
+By KPR APP COMPILE มั่นใจด้วยสินค้าคุณภาพ รับประกันทุกชิ้น โปรแกรมผ่าน Arduino IDE 
+ผ่าน Board Arduino, Board NodeMCU, Board Wemos 
+เรียนรู้ ใช้งาน กับคอร์สเรียน ฟรี พร้อม Source Code และ Driver
 
 001-Lab ทดสอบการทำงาน Board Arduino ด้วย LED Build In
 เป็น Lab แรกที่จะเรียนรู้เรื่องการทำงานของ Board arduino และ NodeMCU
