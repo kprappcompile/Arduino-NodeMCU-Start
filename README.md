@@ -86,16 +86,16 @@ ESP8266 เป็นชื่อเรียกของชิฟของโม
 เพื่อให้ง่ายต่อการเขียนโปรแกรม ได้มีการพัฒนาต่อเนื่อง โดยเอา โมดูล ESP8266 ESP-12 มาต่อขยายขา แล้วเพิ่ม TTL USB
 จึงกลายมาเป็น NodeMCU ที่มีในตลาดปัจจุบัน ก็จะมี 
 
-Nodemcu V1 (ชื่อเรียกอย่างเป็นทางการ V0.9) ESP8266 ESP-12 TTL USB CH340 
-    <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">Driver CP2102</a> 
+<h3>Nodemcu V1 (ชื่อเรียกอย่างเป็นทางการ V0.9) ESP8266 ESP-12 TTL USB CH340 </h3>
+    <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">Download Driver CP2102</a> 
    
 <img src="http://www.kprappcompile.com/arduino-img/NodeMCU_v0.9_Pinout.png" width="200">
     
-Nodemcu V1 มี Digital I/O 11 Port คือ D0-D10 มี Analog I/O ให้ 1 ช่อง คือ A0
+   Nodemcu V1 มี Digital I/O 11 Port คือ D0-D10 มี Analog I/O ให้ 1 ช่อง คือ A0
 
-ทำให้การโปรแกรมมีความสะดวกขึ้นมาก เชื่อมต่อทาง USB ด้วย TTL USB Chip CH340 
+  ทำให้การโปรแกรมมีความสะดวกขึ้นมาก เชื่อมต่อทาง USB ด้วย TTL USB Chip CH340 
 
-Nodemcu V2 (ชื่อเรียกอย่างเป็นทางการ V1.0) ESP8266 ESP-12E TTL USB CP2102  
+<h3>Nodemcu V2 (ชื่อเรียกอย่างเป็นทางการ V1.0) ESP8266 ESP-12E TTL USB CP2102<h3>  
     <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">Driver CP2102</a>
 <img src="http://www.kprappcompile.com/arduino-img/NodeMCU-V2-Diagram.png" width="200">    
 
