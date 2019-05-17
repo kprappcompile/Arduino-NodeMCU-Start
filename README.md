@@ -1,4 +1,4 @@
-Arduino/NodeMCU/Wemos คืออะไร?
+<h1>Arduino/NodeMCU/Wemos คืออะไร?</h1>
 
 <a href="https://www.arduino.cc/" target="_blank">Arduino</a>
 
@@ -6,7 +6,7 @@ Arduino/NodeMCU/Wemos คืออะไร?
 
 <a href="https://www.wemos.cc/" target="_blank">Wemos</a>
 
-Arduino คือ ไมโครคอนโทรลเลอร์ 
+<h3>Arduino คือ ไมโครคอนโทรลเลอร์ </h3>
 
 Arduino เป็นไมโครคอนโทรลเลอร์ที่นำไปใช้อย่างแพร่หลายในปัจจุบัน สามารถเรียนรู้ได้รวดเร็ว จึงเหมาะสำหรับการนำไปสร้างโปรเจ็กต์ ต่างๆ
 ไมโครคอนโทรลเลอร์ Arduino ทุกรุ่น จะใช้ชิป AVR เป็นหลัก เพราะมีความทันสมัย
@@ -14,10 +14,10 @@ Arduino เป็นไมโครคอนโทรลเลอร์ที่
 
 สามารถใช้ Arduino IDE ในการเขียนโปรแกรม Download ได้ที่ <a href="https://www.arduino.cc/en/Main/Software" target="_blank">Arduino</a>
     
-ประเภทของ Board Arduino หลักๆ
+<h3>ประเภทของ Board Arduino หลักๆ</h3>
 
 
-1. Arduino UNO
+<h3>1. Arduino UNO</h3>
 
     <img src="http://www.kprappcompile.com/arduino-img/arduino-uno.png" width="200">
 
@@ -29,10 +29,9 @@ Arduino เป็นไมโครคอนโทรลเลอร์ที่
 
     Analog 6 Port Input
 
-2. Arduino Leonardo
+<h3>2. Arduino Leonardo</h3>
 
     <img src="http://www.kprappcompile.com/arduino-img/arduino-leonardo.png" width="200">
-
 
     CPU 16 MHz ATmaga32u4
 
@@ -42,7 +41,7 @@ Arduino เป็นไมโครคอนโทรลเลอร์ที่
 
     Analog 12 Port Input
 
-3. Arduino Maga
+<h3>3. Arduino Maga</h3>
 
     <img src="http://www.kprappcompile.com/arduino-img/arduino-maga.png" width="200">
 
@@ -54,7 +53,7 @@ Arduino เป็นไมโครคอนโทรลเลอร์ที่
 
     Analog 16 Port Input
 
-4. Arduino Due
+<h3>4. Arduino Due</h3>
 
     <img src="http://www.kprappcompile.com/arduino-img/arduino-due.png" width="200">
 
@@ -70,7 +69,7 @@ Arduino เป็นไมโครคอนโทรลเลอร์ที่
 
 อย่างไรก็ดี การเขียน โปรแกรม ก็สามารถเขียนได้เหมือนกัน ทุกรุ่น
 
-Board NodeMCU 
+<h3>Board NodeMCU </h3>
 
    ก่อนที่จะรู้จัก NodeMCU คืออะไรนั้น ก่อนนอื่น เรามารู้จักกับ ESP8266 กันก่อน
 ESP8266 เป็นชื่อเรียกของชิฟของโมดูล ESP8266 
@@ -91,19 +90,19 @@ ESP8266 เป็นชื่อเรียกของชิฟของโม
    
 <img src="http://www.kprappcompile.com/arduino-img/NodeMCU_v0.9_Pinout.png" width="200">
     
-   Nodemcu V1 มี Digital I/O 11 Port คือ D0-D10 มี Analog I/O ให้ 1 ช่อง คือ A0
+ Nodemcu V1 มี Digital I/O 11 Port คือ D0-D10 มี Analog I/O ให้ 1 ช่อง คือ A0
 
-  ทำให้การโปรแกรมมีความสะดวกขึ้นมาก เชื่อมต่อทาง USB ด้วย TTL USB Chip CH340 
+ ทำให้การโปรแกรมมีความสะดวกขึ้นมาก เชื่อมต่อทาง USB ด้วย TTL USB Chip CH340 
 
 <h3>Nodemcu V2 (ชื่อเรียกอย่างเป็นทางการ V1.0) ESP8266 ESP-12E TTL USB CP2102<h3>  
     <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">Driver CP2102</a>
 <img src="http://www.kprappcompile.com/arduino-img/NodeMCU-V2-Diagram.png" width="200">    
 
-Nodemcu 3 ESP8266 ESP-12E TTL USB CH340G
+<h3>Nodemcu 3 ESP8266 ESP-12E TTL USB CH340G</h3>
     <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">Driver CP2102</a>
 <img src="http://www.kprappcompile.com/arduino-img/NodeMCU-V3-Diagram.png" width="200">  
 
-เราจึง นำมาใช่ในงาน IOT กันส่วนใหญ่ เพราะมีความสามารถเขียนโปรแกรมได้เหมือน ที่มีขา Input Output 
+
         
 001-Lab ทดสอบการทำงาน Board Arduino ด้วย LED Build In
 เป็น Lab แรกที่จะเรียนรู้เรื่องการทำงานของ Board arduino และ NodeMCU
