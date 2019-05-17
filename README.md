@@ -1,12 +1,21 @@
-<h1>Arduino/NodeMCU/Wemos คืออะไร?</h1>
+<h1>Arduino/NodeMCU ESP8266/Wemos คืออะไร?</h1>
 
-<a href="https://www.arduino.cc/" target="_blank">Arduino</a>
+<a href="https://www.arduino.cc/" target="_blank">Link Arduino</a>
 
-<a href="https://www.espressif.com/en/products/hardware/esp8266ex/overview" target="_blank">ESP8266</a>
+<a href="https://www.espressif.com/en/products/hardware/esp8266ex/overview" target="_blank">Link ESP8266</a>
 
-<a href="https://www.wemos.cc/" target="_blank">Wemos</a>
+<a href="https://www.wemos.cc/" target="_blank">Link Wemos</a>
+
+<a href="https://www.arduino.cc/en/Main/Software" target="_blank">Arduino IDE</a>
+
+<a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">Download Driver CP2102</a>
+
+<a href="https://sparks.gogo.co.nz/ch340.html" target="_blank">Download Driver CH340</a>
+
+<hr>
 
 <h3>Arduino คือ ไมโครคอนโทรลเลอร์ </h3>
+
 
 Arduino เป็นไมโครคอนโทรลเลอร์ที่นำไปใช้อย่างแพร่หลายในปัจจุบัน สามารถเรียนรู้ได้รวดเร็ว จึงเหมาะสำหรับการนำไปสร้างโปรเจ็กต์ ต่างๆ
 ไมโครคอนโทรลเลอร์ Arduino ทุกรุ่น จะใช้ชิป AVR เป็นหลัก เพราะมีความทันสมัย
@@ -19,55 +28,57 @@ Arduino เป็นไมโครคอนโทรลเลอร์ที่
 
 <h3>1. Arduino UNO</h3>
 
-    <img src="http://www.kprappcompile.com/arduino-img/arduino-uno.png" width="200">
+   <img src="http://www.kprappcompile.com/arduino-img/arduino-uno.png" width="200">
 
-    CPU 16 MHz ATmaga328
+   CPU 16 MHz ATmaga328
 
-    2.5KB SRAM, 32 KB Flash
+   2.5KB SRAM, 32 KB Flash
 
-    Digital I/O 14 Port
+   Digital I/O 14 Port
 
-    Analog 6 Port Input
+   Analog 6 Port Input
 
 <h3>2. Arduino Leonardo</h3>
 
-    <img src="http://www.kprappcompile.com/arduino-img/arduino-leonardo.png" width="200">
+   <img src="http://www.kprappcompile.com/arduino-img/arduino-leonardo.png" width="200">
 
-    CPU 16 MHz ATmaga32u4
+   CPU 16 MHz ATmaga32u4
 
-    2.5KB SRAM, 32 KB Flash
+   2.5KB SRAM, 32 KB Flash
 
-    Digital I/O 20 Port
+   Digital I/O 20 Port
 
-    Analog 12 Port Input
+   Analog 12 Port Input
 
 <h3>3. Arduino Maga</h3>
 
-    <img src="http://www.kprappcompile.com/arduino-img/arduino-maga.png" width="200">
+   <img src="http://www.kprappcompile.com/arduino-img/arduino-maga.png" width="200">
 
-    CPU 16 MHz ATmaga2560
+   CPU 16 MHz ATmaga2560
 
-    8KB SRAM, 256 KB Flash
+   8KB SRAM, 256 KB Flash
 
-    Digital I/O 54 Port
+   Digital I/O 54 Port
 
-    Analog 16 Port Input
+   Analog 16 Port Input
 
 <h3>4. Arduino Due</h3>
 
-    <img src="http://www.kprappcompile.com/arduino-img/arduino-due.png" width="200">
+   <img src="http://www.kprappcompile.com/arduino-img/arduino-due.png" width="200">
 
-    CPU 84 MHz AT91SAM3X8E
+   CPU 84 MHz AT91SAM3X8E
 
-    96KB SRAM, 512 KB Flash
+   96KB SRAM, 512 KB Flash
 
-    Digital 54 Port
+   Digital 54 Port
 
-    Analog 12 Port Input, 2 Port Output
+   Analog 12 Port Input, 2 Port Output
 
 ทั้งนี้ ก็จะมีรุ่นย่อยอื่นอีก เช่น Arduino nano, Arduino Pro mini
 
 อย่างไรก็ดี การเขียน โปรแกรม ก็สามารถเขียนได้เหมือนกัน ทุกรุ่น
+
+<hr>
 
 <h3>Board NodeMCU </h3>
 
@@ -103,7 +114,7 @@ ESP8266 เป็นชื่อเรียกของชิฟของโม
 <img src="http://www.kprappcompile.com/arduino-img/NodeMCU-V3-Diagram.png" width="200">  
 
 
-        
+<hr>        
 001-Lab ทดสอบการทำงาน Board Arduino ด้วย LED Build In
 เป็น Lab แรกที่จะเรียนรู้เรื่องการทำงานของ Board arduino และ NodeMCU
 ใน Code จะมี Function ที่จำเป็นและ ต้องมี 2 Function คือ
