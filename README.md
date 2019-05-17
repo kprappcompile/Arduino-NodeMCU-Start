@@ -1,14 +1,16 @@
 Arduino/NodeMCU/Wemos คืออะไร?
 
-By KPR APP COMPILE มั่นใจด้วยสินค้าคุณภาพ รับประกันทุกชิ้น โปรแกรมผ่าน Arduino IDE
-ผ่าน Board Arduino, Board NodeMCU, Board Wemos
-เรียนรู้ ใช้งาน กับคอร์สเรียน ฟรี พร้อม Source Code และ Drive
-    
+<a href="https://www.arduino.cc/" target="_blank">Arduino</a>
+
+<a href="https://www.espressif.com/en/products/hardware/esp8266ex/overview" target="_blank">ESP8266</a>
+
+<a href="https://www.wemos.cc/" target="_blank">Wemos</a>
+
 Arduino คือ ไมโครคอนโทรลเลอร์ 
 
-ที่นำไปใช้อย่างแร่หลายในปัจจุบัน สามารถเรียนรู้ได้รวดเร็ว จึงเหมาะสำหรับการนำไปสร้างโปรแจ็กต์ ต่างๆ
+Arduino เป็นไมโครคอนโทรลเลิร์ที่นำไปใช้อย่างแพร่หลายในปัจจุบัน สามารถเรียนรู้ได้รวดเร็ว จึงเหมาะสำหรับการนำไปสร้างโปรแจ็กต์ ต่างๆ
 ไมโครคอนโทรลเลอร์ Arduino ทุกรุ่น จะใช้ชิป AVR เป็นหลัก เพราะมีความทันสมัย
-ไมโครคอนโทรลเลอร์ Arduino สามารถโปรแกรมผ่านพอร์ตอนุกรมชนิต UART ได้จึงทำให้เขียนโปรแกรมลงไปในชิป โดยการใช้USB ติดต่อกับ UART </p>
+ไมโครคอนโทรลเลอร์ Arduino สามารถโปรแกรมผ่านพอร์ตอนุกรมชนิต UART ได้จึงทำให้เขียนโปรแกรมลงไปในชิป โดยการใช้USB ติดต่อกับ UART
     
 <u>ประเภทของ Board Arduino หลักๆ</u>
 
@@ -66,7 +68,24 @@ Arduino คือ ไมโครคอนโทรลเลอร์
 
 อย่างไรก็ดี การเขียน โปรแกรม ก็สามารถเขียนได้เหมือนกัน ทุกรุ่น
 
+NodeMCU 
 
+   ก่อนที่จะรู้จัก NodeMCU คืออะไรนั้น ก่อนนอื่น เรามารู้จักกับ ESP8266 กันก่อน
+ESP8266 เป็นชื่อเรียกของชิฟของโมดูล ESP8266 
+
+ESP8266 มีรุ่นย่อยๆหลายรุ่น โดยหลักๆแล้วทำงานเหมือนกัน
+
+<img src="http://www.kprappcompile.com/arduino-img/esp8266-01.png" width="200">
+<img src="http://www.kprappcompile.com/arduino-img/esp8266-03.png" width="200">
+<img src="http://www.kprappcompile.com/arduino-img/esp8266-07.png" width="200">
+<img src="http://www.kprappcompile.com/arduino-img/esp8266-12.png" width="200">
+
+
+
+
+ใช้สำหรับติดต่อสื่อสารบนมาตรฐาน WiFi ทำงานที่แรงดันไฟฟ้า 3.0-3.6V 
+
+เราจึง นำมาใช่ในงาน IOT กันส่วนใหญ่ เพราะมีความสามารถเขียนโปรแกรมได้เหมือน ที่มีขา Input Output 
         
 001-Lab ทดสอบการทำงาน Board Arduino ด้วย LED Build In
 เป็น Lab แรกที่จะเรียนรู้เรื่องการทำงานของ Board arduino และ NodeMCU
