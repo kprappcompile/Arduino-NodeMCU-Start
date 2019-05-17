@@ -8,9 +8,9 @@ Arduino/NodeMCU/Wemos คืออะไร?
 
 Arduino คือ ไมโครคอนโทรลเลอร์ 
 
-Arduino เป็นไมโครคอนโทรลเลิร์ที่นำไปใช้อย่างแพร่หลายในปัจจุบัน สามารถเรียนรู้ได้รวดเร็ว จึงเหมาะสำหรับการนำไปสร้างโปรแจ็กต์ ต่างๆ
+Arduino เป็นไมโครคอนโทรลเลอร์ที่นำไปใช้อย่างแพร่หลายในปัจจุบัน สามารถเรียนรู้ได้รวดเร็ว จึงเหมาะสำหรับการนำไปสร้างโปรเจ็กต์ ต่างๆ
 ไมโครคอนโทรลเลอร์ Arduino ทุกรุ่น จะใช้ชิป AVR เป็นหลัก เพราะมีความทันสมัย
-ไมโครคอนโทรลเลอร์ Arduino สามารถโปรแกรมผ่านพอร์ตอนุกรมชนิต UART ได้จึงทำให้เขียนโปรแกรมลงไปในชิป โดยการใช้USB ติดต่อกับ UART
+ไมโครคอนโทรลเลอร์ Arduino สามารถโปรแกรมผ่านพอร์ตอนุกรมชนิต UART ได้ จึงทำให้เขียนโปรแกรมลงไปในชิป โดยการใช้USB ติดต่อกับ UART
 
 สามารถใช้ Arduino IDE ในการเขียนโปรแกรม Download ได้ที่ <a href="https://www.arduino.cc/en/Main/Software" target="_blank">Arduino</a>
     
@@ -23,11 +23,11 @@ Arduino เป็นไมโครคอนโทรลเลิร์ที่
 
     CPU 16 MHz ATmaga328
 
-    2.5KB SRAM 32 KB Flash
+    2.5KB SRAM, 32 KB Flash
 
-    Digital I/O 20 Port
+    Digital I/O 14 Port
 
-    Analog 12 Port Input
+    Analog 6 Port Input
 
 2. Arduino Leonardo
 
@@ -36,7 +36,7 @@ Arduino เป็นไมโครคอนโทรลเลิร์ที่
 
     CPU 16 MHz ATmaga32u4
 
-    2.5KB SRAM 32 KB Flash
+    2.5KB SRAM, 32 KB Flash
 
     Digital I/O 20 Port
 
@@ -48,7 +48,7 @@ Arduino เป็นไมโครคอนโทรลเลิร์ที่
 
     CPU 16 MHz ATmaga2560
 
-    8KB SRAM 256 KB Flash
+    8KB SRAM, 256 KB Flash
 
     Digital I/O 54 Port
 
@@ -60,17 +60,17 @@ Arduino เป็นไมโครคอนโทรลเลิร์ที่
 
     CPU 84 MHz AT91SAM3X8E
 
-    96KB SRAM 512 KB Flash
+    96KB SRAM, 512 KB Flash
 
     Digital 54 Port
 
-    Analog 12 Port Input 2 Port Outpit
+    Analog 12 Port Input, 2 Port Output
 
-ทั้งนี้ ก็จะมีรุ่นย่อยๆอื่นๆอีก เช่น Arduino nano, Arduino Pro mini
+ทั้งนี้ ก็จะมีรุ่นย่อยอื่นอีก เช่น Arduino nano, Arduino Pro mini
 
 อย่างไรก็ดี การเขียน โปรแกรม ก็สามารถเขียนได้เหมือนกัน ทุกรุ่น
 
-NodeMCU 
+Board NodeMCU 
 
    ก่อนที่จะรู้จัก NodeMCU คืออะไรนั้น ก่อนนอื่น เรามารู้จักกับ ESP8266 กันก่อน
 ESP8266 เป็นชื่อเรียกของชิฟของโมดูล ESP8266 
