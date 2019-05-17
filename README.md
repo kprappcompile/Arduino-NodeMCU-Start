@@ -10,7 +10,8 @@ Arduino คือ ไมโครคอนโทรลเลอร์
 ไมโครคอนโทรลเลอร์ Arduino ทุกรุ่น จะใช้ชิป AVR เป็นหลัก เพราะมีความทันสมัย
 ไมโครคอนโทรลเลอร์ Arduino สามารถโปรแกรมผ่านพอร์ตอนุกรมชนิต UART ได้จึงทำให้เขียนโปรแกรมลงไปในชิป โดยการใช้USB ติดต่อกับ UART </p>
     
-ประเภทของ Board Arduino
+<u>ประเภทของ Board Arduino หลักๆ</u>
+
 
 1. Arduino UNO
 
@@ -39,7 +40,7 @@ Arduino คือ ไมโครคอนโทรลเลอร์
 
 3. Arduino Maga
 
-    <img sec="http://www.kprappcompile.com/arduino-img/arduino-maga.png" width="200">
+    <img src="http://www.kprappcompile.com/arduino-img/arduino-maga.png" width="200">
 
     CPU 16 MHz ATmaga2560
 
@@ -60,6 +61,12 @@ Arduino คือ ไมโครคอนโทรลเลอร์
     Digital 54 Port
 
     Analog 12 Port Input 2 Port Outpit
+
+ทั้งนี้ ก็จะมีรุ่นย่อยๆอื่นๆอีก เช่น Arduino nano, Arduino Pro mini
+
+อย่างไรก็ดี การเขียน โปรแกรม ก็สามารถเขียนได้เหมือนกัน ทุกรุ่น
+
+
         
 001-Lab ทดสอบการทำงาน Board Arduino ด้วย LED Build In
 เป็น Lab แรกที่จะเรียนรู้เรื่องการทำงานของ Board arduino และ NodeMCU
