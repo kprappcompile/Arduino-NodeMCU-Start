@@ -14,7 +14,7 @@ Arduino คือ ไมโครคอนโทรลเลอร์
 
 1. Arduino UNO
 
-    <img sec="http://www.kprappcompile.com/arduino-img/arduino-uno.png" width="200">
+    <img src="http://www.kprappcompile.com/arduino-img/arduino-uno.png" width="200">
 
     CPU 16 MHz ATmaga328
 
@@ -26,7 +26,7 @@ Arduino คือ ไมโครคอนโทรลเลอร์
 
 2. Arduino Leonardo
 
-    <img sec="http://www.kprappcompile.com/arduino-img/arduino-leonardo.png" width="200">
+    <img src="http://www.kprappcompile.com/arduino-img/arduino-leonardo.png" width="200">
 
 
     CPU 16 MHz ATmaga32u4
@@ -51,7 +51,7 @@ Arduino คือ ไมโครคอนโทรลเลอร์
 
 4. Arduino Due
 
-    <img sec="http://www.kprappcompile.com/arduino-img/arduino-due.png" width="200">
+    <img src="http://www.kprappcompile.com/arduino-img/arduino-due.png" width="200">
 
     CPU 84 MHz AT91SAM3X8E
 
