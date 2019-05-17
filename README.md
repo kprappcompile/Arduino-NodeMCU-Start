@@ -26,6 +26,9 @@ Arduino คือ ไมโครคอนโทรลเลอร์
 
 2. Arduino Leonardo
 
+    <img sec="http://www.kprappcompile.com/arduino-img/arduino-leonardo.png" width="200">
+
+
     CPU 16 MHz ATmaga32u4
 
     2.5KB SRAM 32 KB Flash
@@ -36,6 +39,8 @@ Arduino คือ ไมโครคอนโทรลเลอร์
 
 3. Arduino Maga
 
+    <img sec="http://www.kprappcompile.com/arduino-img/arduino-maga.png" width="200">
+
     CPU 16 MHz ATmaga2560
 
     8KB SRAM 256 KB Flash
@@ -45,6 +50,8 @@ Arduino คือ ไมโครคอนโทรลเลอร์
     Analog 16 Port Input
 
 4. Arduino Due
+
+    <img sec="http://www.kprappcompile.com/arduino-img/arduino-due.png" width="200">
 
     CPU 84 MHz AT91SAM3X8E
 
