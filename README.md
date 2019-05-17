@@ -11,8 +11,10 @@ Arduino คือ ไมโครคอนโทรลเลอร์
 Arduino เป็นไมโครคอนโทรลเลิร์ที่นำไปใช้อย่างแพร่หลายในปัจจุบัน สามารถเรียนรู้ได้รวดเร็ว จึงเหมาะสำหรับการนำไปสร้างโปรแจ็กต์ ต่างๆ
 ไมโครคอนโทรลเลอร์ Arduino ทุกรุ่น จะใช้ชิป AVR เป็นหลัก เพราะมีความทันสมัย
 ไมโครคอนโทรลเลอร์ Arduino สามารถโปรแกรมผ่านพอร์ตอนุกรมชนิต UART ได้จึงทำให้เขียนโปรแกรมลงไปในชิป โดยการใช้USB ติดต่อกับ UART
+
+สามารถใช้ Arduino IDE ในการเขียนโปรแกรม Download ได้ที่ <a href="https://www.arduino.cc/en/Main/Software" target="_blank">Arduino</a>
     
-<u>ประเภทของ Board Arduino หลักๆ</u>
+ประเภทของ Board Arduino หลักๆ
 
 
 1. Arduino UNO
@@ -23,7 +25,7 @@ Arduino เป็นไมโครคอนโทรลเลิร์ที่
 
     2.5KB SRAM 32 KB Flash
 
-    Digital 20 Port
+    Digital I/O 20 Port
 
     Analog 12 Port Input
 
@@ -36,7 +38,7 @@ Arduino เป็นไมโครคอนโทรลเลิร์ที่
 
     2.5KB SRAM 32 KB Flash
 
-    Digital 20 Port
+    Digital I/O 20 Port
 
     Analog 12 Port Input
 
@@ -48,7 +50,7 @@ Arduino เป็นไมโครคอนโทรลเลิร์ที่
 
     8KB SRAM 256 KB Flash
 
-    Digital 54 Port
+    Digital I/O 54 Port
 
     Analog 16 Port Input
 
@@ -72,18 +74,34 @@ NodeMCU
 
    ก่อนที่จะรู้จัก NodeMCU คืออะไรนั้น ก่อนนอื่น เรามารู้จักกับ ESP8266 กันก่อน
 ESP8266 เป็นชื่อเรียกของชิฟของโมดูล ESP8266 
+ใช้สำหรับติดต่อสื่อสารบนมาตรฐาน WiFi ทำงานที่แรงดันไฟฟ้า 3.0-3.6V 
 
-ESP8266 มีรุ่นย่อยๆหลายรุ่น โดยหลักๆแล้วทำงานเหมือนกัน
+เมื่อนำชิฟ ESP8266 มาผลิตเป็นโมดูลหลายรุ่น ก็จะขึ้นต้นด้วย ESP866 แล้วตามด้วยรุ่น เช่น ESP-01 , ESP-03 , ESP-07 , ESP-12
 
 <img src="http://www.kprappcompile.com/arduino-img/esp8266-01.png" width="200">
 <img src="http://www.kprappcompile.com/arduino-img/esp8266-03.png" width="200">
 <img src="http://www.kprappcompile.com/arduino-img/esp8266-07.png" width="200">
 <img src="http://www.kprappcompile.com/arduino-img/esp8266-12.png" width="200">
 
+เพื่อให้ง่ายต่อการเขียนโปรแกรม ได้มีการพัฒนาต่อเนื่อง โดยเอา โมดูล ESP8266 ESP-12 มาต่อขยายขา แล้วเพิ่ม TTL USB
+จึงกลายมาเป็น NodeMCU ที่มีในตลาดปัจจุบัน ก็จะมี 
 
+Nodemcu V1 (ชื่อเรียกอย่างเป็นทางการ V0.9) ESP8266 ESP-12 TTL USB CH340 
+    <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">Driver CP2102</a> 
+   
+<img src="http://www.kprappcompile.com/arduino-img/NodeMCU_v0.9_Pinout.png" width="200">
+    
+Nodemcu V1 มี Digital I/O 11 Port คือ D0-D10 มี Analog I/O ให้ 1 ช่อง คือ A0
 
+ทำให้การโปรแกรมมีความสะดวกขึ้นมาก เชื่อมต่อทาง USB ด้วย TTL USB Chip CH340 
 
-ใช้สำหรับติดต่อสื่อสารบนมาตรฐาน WiFi ทำงานที่แรงดันไฟฟ้า 3.0-3.6V 
+Nodemcu V2 (ชื่อเรียกอย่างเป็นทางการ V1.0) ESP8266 ESP-12E TTL USB CP2102  
+    <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">Driver CP2102</a>
+<img src="http://www.kprappcompile.com/arduino-img/NodeMCU-V2-Diagram.png" width="200">    
+
+Nodemcu 3 ESP8266 ESP-12E TTL USB CH340G
+    <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">Driver CP2102</a>
+<img src="http://www.kprappcompile.com/arduino-img/NodeMCU-V3-Diagram.png" width="200">  
 
 เราจึง นำมาใช่ในงาน IOT กันส่วนใหญ่ เพราะมีความสามารถเขียนโปรแกรมได้เหมือน ที่มีขา Input Output 
         
