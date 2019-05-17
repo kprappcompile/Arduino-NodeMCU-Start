@@ -1,4 +1,4 @@
-#Arduino/NodeMCU/Wemos คืออะไร?
+Arduino/NodeMCU/Wemos คืออะไร?
 
 By KPR APP COMPILE มั่นใจด้วยสินค้าคุณภาพ รับประกันทุกชิ้น โปรแกรมผ่าน Arduino IDE
 ผ่าน Board Arduino, Board NodeMCU, Board Wemos
@@ -12,74 +12,48 @@ Arduino คือ ไมโครคอนโทรลเลอร์
     
 ประเภทของ Board Arduino
 
+1. Arduino UNO
 
-    <table>
-        <thead>
+    <img sec="http://www.kprappcompile.com/arduino-img/arduino-uno.png" width="200">
 
-            <tr>
-                <th>Type Arduino</th>
-                <th>Processor</th>
-                <th>Data Memory</th>
-                <th>Digital I/O Port</th>
-                <th>Analog I/O Port</th>
-            </tr>
-        </thead>
-        <tbody>
+    CPU 16 MHz ATmaga328
 
-            <tr>
+    2.5KB SRAM 32 KB Flash
 
-                <td>Arduino UNO</td>
+    Digital 20 Port
 
-                <td>16 MHz ATmaga328</td>
+    Analog 12 Port Input
 
-                <td>2.5KB SRAM 32 KB Flash</td>
+2. Arduino Leonardo
 
-                <td>20 Port</td>
+    CPU 16 MHz ATmaga32u4
 
-                <td>12 Port Input</td>
-            </tr>
+    2.5KB SRAM 32 KB Flash
 
-            <tr>
+    Digital 20 Port
 
-                <td>Arduino Leonardo</td>
+    Analog 12 Port Input
 
-                <td>16 MHz ATmaga32u4</td>
+3. Arduino Maga
 
-                <td>2KB SRAM 32 KB Flash</td>
+    CPU 16 MHz ATmaga2560
 
-                <td>14 Port</td>
+    8KB SRAM 256 KB Flash
 
-                <td>6 Port Input</td>
-            </tr>
+    Digital 54 Port
 
-            <tr>
+    Analog 16 Port Input
 
-                <td>Arduino Maga</td>
+4. Arduino Due
 
-                <td>16 MHz ATmaga2560</td>
+    CPU 84 MHz AT91SAM3X8E
 
-                <td>8KB SRAM 256 KB Flash</td>
+    96KB SRAM 512 KB Flash
 
-                <td>54 Port</td>
+    Digital 54 Port
 
-                <td>16 Port Input</td>
-            </tr>
-
-            <tr>
-
-                <td>Arduino Due</td>
-
-                <td>96KB SRAM 512 KB Flash</td>
-
-                <td>54 Port</td>
-
-                <td>12 Port Input, 2 Port Output</td>
-            </tr>
-
-
-        </tbody>
-    </table>
-
+    Analog 12 Port Input 2 Port Outpit
+        
 001-Lab ทดสอบการทำงาน Board Arduino ด้วย LED Build In
 เป็น Lab แรกที่จะเรียนรู้เรื่องการทำงานของ Board arduino และ NodeMCU
 ใน Code จะมี Function ที่จำเป็นและ ต้องมี 2 Function คือ
