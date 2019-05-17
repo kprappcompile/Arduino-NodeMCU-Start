@@ -6,7 +6,7 @@
 
 <a href="https://www.wemos.cc/" target="_blank">Link Wemos</a>
 
-<a href="https://www.arduino.cc/en/Main/Software" target="_blank">Arduino IDE</a>
+<a href="https://www.arduino.cc/en/Main/Software" target="_blank">Download Arduino IDE</a>
 
 <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">Download Driver CP2102</a>
 
@@ -105,12 +105,13 @@ ESP8266 เป็นชื่อเรียกของชิฟของโม
 
  ทำให้การโปรแกรมมีความสะดวกขึ้นมาก เชื่อมต่อทาง USB ด้วย TTL USB Chip CH340 
 
-<h3>Nodemcu V2 (ชื่อเรียกอย่างเป็นทางการ V1.0) ESP8266 ESP-12E TTL USB CP2102<h3>  
+<h3>Nodemcu V2 (ชื่อเรียกอย่างเป็นทางการ V1.0) ESP8266 ESP-12E TTL USB CP2102</h3>  
     <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">Driver CP2102</a>
+    
 <img src="http://www.kprappcompile.com/arduino-img/NodeMCU-V2-Diagram.png" width="200">    
 
 <h3>Nodemcu 3 ESP8266 ESP-12E TTL USB CH340G</h3>
-    <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">Driver CP2102</a>
+    <a href="https://sparks.gogo.co.nz/ch340.html" target="_blank">Download Driver CH340</a>
 <img src="http://www.kprappcompile.com/arduino-img/NodeMCU-V3-Diagram.png" width="200">  
 
 
