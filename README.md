@@ -6,6 +6,7 @@
 
 <h3>Arduino คือ ไมโครคอนโทรลเลอร์ </h3>
 <a href="https://www.arduino.cc/" target="_blank">Link Arduino</a>
+
 <a href="https://www.arduino.cc/en/Main/Software" target="_blank">Download Arduino IDE</a>
 
 Arduino เป็นไมโครคอนโทรลเลอร์ที่นำไปใช้อย่างแพร่หลายในปัจจุบัน สามารถเรียนรู้ได้รวดเร็ว จึงเหมาะสำหรับการนำไปสร้างโปรเจ็กต์ ต่างๆ
@@ -61,23 +62,22 @@ Arduino เป็นไมโครคอนโทรลเลอร์ที่
 <h3>รูป Boad Arduino</h3>
 <table>
 <thead>
-<th>
+<tr>
 <td><h3>1. Arduino UNO</h3></td>
 <td><img src="http://www.kprappcompile.com/arduino-img/arduino-uno.png" width="200"></td>
-</th>
-<th>
+</tr>
+<tr>
 <td><h3>2. Arduino Leonardo</h3></td>
 <td><img src="http://www.kprappcompile.com/arduino-img/arduino-leonardo.png" width="200"></td>
-</th>
-<th>
+</tr>
+<tr>
 <td><h3>3. Arduino Maga</h3></td>
 <td><img src="http://www.kprappcompile.com/arduino-img/arduino-maga.png" width="200"></td>
-</th>
-<th>
+</tr>
+<tr>
 <td><h3>4. Arduino Due</h3></td>
 <td><img src="http://www.kprappcompile.com/arduino-img/arduino-due.png" width="200"></td>
-</th>
-</thead>
+</tr>
 </table>
 
 
