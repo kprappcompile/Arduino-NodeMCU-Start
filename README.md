@@ -24,7 +24,46 @@ Arduino เป็นไมโครคอนโทรลเลอร์ที่
 สามารถใช้ Arduino IDE ในการเขียนโปรแกรม Download ได้ที่ <a href="https://www.arduino.cc/en/Main/Software" target="_blank">Arduino</a>
     
 <h3>ประเภทของ Board Arduino หลักๆ</h3>
-
+<table>
+<thead>
+<tr>
+    <th>Type Arduino</th>
+    <th>Processor</th>
+    <th>Data Memory</th>
+    <th>Digital I/O Port</th>
+    <th>Analog I/O Port</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arduino UNO</td>
+<td>16 MHz ATmaga328</td>
+<td>2.5KB SRAM 32 KB Flash</td>
+<td>20 Port</td>
+<td>12 Port Input</td>
+</tr>
+<tr>
+<td>Arduino Leonardo</td>
+<td>16 MHz ATmaga32u4</td>
+<td>2KB SRAM 32 KB Flash</td>
+<td>14 Port</td>
+<td>6 Port Input</td>
+</tr>
+<tr>
+<td>Arduino Maga</td>
+<td>16 MHz ATmaga2560</td>
+<td>8KB SRAM 256 KB Flash</td>
+<td>54 Port</td>
+<td>16 Port Input</td>
+</tr>
+<tr>
+<td>Arduino Due</td>
+<td>96KB SRAM 512 KB Flash</td>
+<td>54 Port</td>
+<td>12 Port Input, 2 Port Output</td>
+</tr>
+</tbody>
+</table>
 
 <h3>1. Arduino UNO</h3>
 
