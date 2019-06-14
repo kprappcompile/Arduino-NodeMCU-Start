@@ -68,15 +68,15 @@ Arduino เป็นไมโครคอนโทรลเลอร์ที่
 </tr>
 <tr>
 <td><h3>2. Arduino Leonardo</h3></td>
-<td><img src="http://www.kprappcompile.com/arduino-img/arduino-leonardo.png" width="200"></td>
+<td><img src="images/arduino-leonardo.png" width="200"></td>
 </tr>
 <tr>
 <td><h3>3. Arduino Maga</h3></td>
-<td><img src="http://www.kprappcompile.com/arduino-img/arduino-maga.png" width="200"></td>
+<td><img src="images/arduino-mega.png" width="200"></td>
 </tr>
 <tr>
 <td><h3>4. Arduino Due</h3></td>
-<td><img src="http://www.kprappcompile.com/arduino-img/arduino-due.png" width="200"></td>
+<td><img src="images/arduino-due.png" width="200"></td>
 </tr>
 </table>
 
@@ -101,10 +101,10 @@ ESP8266 เป็นชื่อเรียกของชิฟของโม
 
 เมื่อนำชิฟ ESP8266 มาผลิตเป็นโมดูลหลายรุ่น ก็จะขึ้นต้นด้วย ESP866 แล้วตามด้วยรุ่น เช่น ESP-01 , ESP-03 , ESP-07 , ESP-12
 
-<img src="http://www.kprappcompile.com/arduino-img/esp8266-01.png" width="200">
-<img src="http://www.kprappcompile.com/arduino-img/esp8266-03.png" width="200">
-<img src="http://www.kprappcompile.com/arduino-img/esp8266-07.png" width="200">
-<img src="http://www.kprappcompile.com/arduino-img/esp8266-12.png" width="200">
+<img src="images/esp8266-01.png" width="200">
+<img src="images/esp8266-03.png" width="200">
+<img src="images/esp8266-07.png" width="200">
+<img src="images/esp8266-12.png" width="200">
 
 การใช้งาน การโปรแกรมลงโมดูล ESP8266 มีความไม่สะดวก ต้องต่อผ่าน IC TTL USB เพื่อให้เชื่อมต่อคอมพิวเตอร์ ผ่าน USB Prot ได้
 เมื่อโปรแกรมแล้วจึงนำ โมดูล มาใช้งาน
@@ -119,7 +119,7 @@ ESP8266 เป็นชื่อเรียกของชิฟของโม
 
 <h3>Nodemcu V1 (ชื่อที่เป็นทางการ V0.9) ESP8266 ESP-12 ใช้ชิป IC TTL USB CH340 </h3>
     
-<img src="http://www.kprappcompile.com/arduino-img/NodeMCU_v0.9_Pinout.png" width="200">
+<img src="images/NodeMCU_v0.9_Pinout.png" width="200">
     
  Nodemcu V1 มี Digital I/O 11 Port คือ D0-D10 มี Analog I/O ให้ 1 ช่อง คือ A0
 
@@ -127,7 +127,7 @@ ESP8266 เป็นชื่อเรียกของชิฟของโม
 
 <h3>Nodemcu V2 (ชื่อที่เป็นทางการ V1.0) ESP8266 ESP-12E TTL USB CP2102</h3>  
 
-<img src="http://www.kprappcompile.com/arduino-img/NodeMCU-V2-Diagram.png" width="200">  
+<img src="images/NodeMCU-V2-Diagram.png" width="200">  
 
 Nodemcu V2 มีคุณสมบัตรใกล้เคียงกับ V1 คือมี Digital I/O 11 Port คือ D0-D10 มี Analog I/O ให้ 1 ช่อง คือ A0
 
@@ -136,27 +136,19 @@ Nodemcu V2 มีคุณสมบัตรใกล้เคียงกับ
 
 <h3>Nodemcu 3 ESP8266 ESP-12E TTL USB CH340G</h3>
     
-<img src="http://www.kprappcompile.com/arduino-img/NodeMCU-V3-Diagram.png" width="200">  
+<img src="images/NodeMCU-V3-Diagram.png" width="200">  
 
 NodeMCU V3 ได้ปรับปรุงจาก NodeMCU V2 โดยเปลี่ยนชิฟ ESP8266-12E เป็น ESP-12F/N ปรับปรุงสายอากาศให้รับส่งสัญญาณได้ดีขึ้น
 ทำให้ประสิทธิภาพดีขึ้นมาก เชื่อมต่อทาง USB ด้วย TTL USB Chip CH340 ความกว้างของ Board 3cm. จึงไม่สามารถวางลงบอร์ดทดลองอันเดียวได้
 <hr> 
-<h3>Board Wemos </h3>
-001-Lab ทดสอบการทำงาน Board Arduino ด้วย LED Build In
-เป็น Lab แรกที่จะเรียนรู้เรื่องการทำงานของ Board arduino และ NodeMCU
-ใน Code จะมี Function ที่จำเป็นและ ต้องมี 2 Function คือ
-1. setup
-2. loop
+<h3>Wemos D1 R2 ESP8266 WIFI ESP12E  TTL USB CH340 Arduino UNO  </h3>
 
-โดยที่ Function setup จะทำงานเริ่มต้น เราจะใช้ Function นี้ ในการ
-initialize ค่าเริ่มต้นต่าง
+<img src="images/WemosD1.png" width="200">  
 
-ส่วน Function loop จะทำงานแบบ วนลูป ตลอดการทำงาน
+WeMos-D1 R2 เป็นบอร์ดที่นำเอา ESP8266 WIFI มาสร้างเป็นรูปแบบของ Arduino UNO R3 ทำให้ผู้ใช้งานสามารถต่อสายได้สดวกขึ้น ไม่ต้องต่อสายไฟเอง หรือ มันคือ ESP8266 WIFI ในร้างArudino UNO เชื่อมต่อทาง USB ด้วย TTL USB Chip CH340 การอัพโหลดโปรแกรมลงบนบอร์ด เราสามารถใช้ Arudino IDE ได้เลย แต่จำเป็นต้องติดตั้ง USB Driver ของมันก่อน
 
-รายละเอียดขาต่างๆ ของ NodeMCU <br>
-
-
-
+<hr>
+<h3>Sample code </h3>
 
 
     void setup() {
@@ -181,14 +173,6 @@ initialize ค่าเริ่มต้นต่าง
         delay(1000);                       // wait for a second => 1000 = 1 second
   
     }
- 
- <ul>
-    <li><a scr="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
- ">Driver TTL CP210x</a></li>
- </ul>
 
- 
- 
- 
- <img src="https://kprappcompile.app/images/logokpr_webdesign.png" width="150">
+ <img src="images/logo-bg.png" width="150">
 
