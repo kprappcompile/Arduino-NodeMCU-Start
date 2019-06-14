@@ -64,7 +64,7 @@ Arduino เป็นไมโครคอนโทรลเลอร์ที่
 <thead>
 <tr>
 <td><h3>1. Arduino UNO</h3></td>
-<td><img src="http://www.kprappcompile.com/arduino-img/arduino-uno.png" width="200"></td>
+<td><img src="images/arduino-uno.png" width="200"></td>
 </tr>
 <tr>
 <td><h3>2. Arduino Leonardo</h3></td>
