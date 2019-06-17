@@ -175,4 +175,6 @@ WeMos-D1 R2 เป็นบอร์ดที่นำเอา ESP8266 WIFI ม
     }
 
  <img src="images/logo-bg.png" width="150">
+Board Arduino
+Board Arduino, Arduino UNO, Arduino Maga, Arduino Leonardo, Arduino Due, Arduino nano, Arduino Pro mini
 
