@@ -1,9 +1,5 @@
-<h1>Arduino/NodeMCU ESP8266/Wemos คืออะไร?</h1>
-
-<a href="https://www.wemos.cc/" target="_blank">Link Wemos</a>
-
+<h1>Arduino/NodeMCU ESP8266/Wemos ?</h1>
 <hr>
-
 <h3>Arduino คือ ไมโครคอนโทรลเลอร์ </h3>
 <a href="https://www.arduino.cc/" target="_blank">Link Arduino</a>
 
@@ -85,6 +81,8 @@ Arduino เป็นไมโครคอนโทรลเลอร์ที่
 
 อย่างไรก็ดี การเขียน โปรแกรม ก็สามารถเขียนได้เหมือนกัน ทุกรุ่น
 
+<a href="https://github.com/kprappcompile/Arduno-UNO" target="_blank">ดู บทความ Arduino UNO</a>
+
 <hr>
 
 <h3>Board NodeMCU </h3>
@@ -132,7 +130,7 @@ ESP8266 เป็นชื่อเรียกของชิฟของโม
 Nodemcu V2 มีคุณสมบัตรใกล้เคียงกับ V1 คือมี Digital I/O 11 Port คือ D0-D10 มี Analog I/O ให้ 1 ช่อง คือ A0
 
 ใช้ชิป ESP8266-12E ใช้ IC TTL USB Chip CP2102 ความกว้างของ Board เล็กกว่า V1 สามารถวางลงบอร์ดทดลองอันเดียวได้ เหลือข้างละ 1 ช่อง
-
+<a href="https://github.com/kprappcompile/NodeMCU-V2" target="_blank">ดู บทความ NodeMCU V2</a>
 
 <h3>Nodemcu 3 ESP8266 ESP-12E TTL USB CH340G</h3>
     
@@ -142,7 +140,7 @@ NodeMCU V3 ได้ปรับปรุงจาก NodeMCU V2 โดยเป
 ทำให้ประสิทธิภาพดีขึ้นมาก เชื่อมต่อทาง USB ด้วย TTL USB Chip CH340 ความกว้างของ Board 3cm. จึงไม่สามารถวางลงบอร์ดทดลองอันเดียวได้
 <hr> 
 <h3>Wemos D1 R2 ESP8266 WIFI ESP12E  TTL USB CH340 Arduino UNO  </h3>
-
+<a href="https://www.wemos.cc/" target="_blank">Link Wemos</a>
 <img src="images/WemosD1.png" width="200">  
 
 WeMos-D1 R2 เป็นบอร์ดที่นำเอา ESP8266 WIFI มาสร้างเป็นรูปแบบของ Arduino UNO R3 ทำให้ผู้ใช้งานสามารถต่อสายได้สดวกขึ้น ไม่ต้องต่อสายไฟเอง หรือ มันคือ ESP8266 WIFI ในร้างArudino UNO เชื่อมต่อทาง USB ด้วย TTL USB Chip CH340 การอัพโหลดโปรแกรมลงบนบอร์ด เราสามารถใช้ Arudino IDE ได้เลย แต่จำเป็นต้องติดตั้ง USB Driver ของมันก่อน
