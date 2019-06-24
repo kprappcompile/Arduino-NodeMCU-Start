@@ -44,7 +44,7 @@ Arduino เป็นไมโครคอนโทรลเลอร์ที่
 <td>12 Port Input</td>
 </tr>
 <tr>
-<td>Arduino Maga</td>
+<td>Arduino Mega</td>
 <td>16 MHz ATmaga2560</td>
 <td>8KB SRAM 256 KB Flash</td>
 <td>54 Port</td>
@@ -71,7 +71,7 @@ Arduino เป็นไมโครคอนโทรลเลอร์ที่
 <td><img src="images/arduino-leonardo.png" width="200"></td>
 </tr>
 <tr>
-<td><h3>3. Arduino Maga</h3></td>
+<td><h3>3. Arduino Mega</h3></td>
 <td><img src="images/arduino-mega.png" width="200"></td>
 </tr>
 <tr>
