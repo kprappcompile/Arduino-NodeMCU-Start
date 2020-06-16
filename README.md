@@ -89,7 +89,7 @@ Arduino เป็นไมโครคอนโทรลเลอร์ที่
 
 <a href="https://www.espressif.com/en/products/hardware/esp8266ex/overview" target="_blank">Link ESP8266</a>
 
-<a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">Download Driver CP2102</a>
+<a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers" target="_blank">Download Driver CP2102</a>
 
 <a href="https://sparks.gogo.co.nz/ch340.html" target="_blank">Download Driver CH340</a>
 
